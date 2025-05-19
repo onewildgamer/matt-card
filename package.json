@@ -1,16 +1,16 @@
 {
-	"name": "bitandbang",
+	"name": "matt-card",
 	"version": "4.0.1",
-	"description": "A personal card for Tierney Cyren (@bitandbang)",
+	"description": "A personal card for Mathuranath B (@mathuranath)",
 	"main": "/bin/card.mjs",
 	"bin": {
 		"bitandbang": "./bin/card.mjs"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/bnb/bitandbang.git"
+		"url": "git+https://github.com/onewildgamer/matt-card.git"
 	},
-	"homepage": "https://bnb.im",
+	"homepage": "https://mathuranath.im",
 	"scripts": {
 		"prepublish": "npm run build",
 		"build": "node build.mjs",
@@ -27,7 +27,7 @@
 		"npx card",
 		"business card"
 	],
-	"author": "Tierney Cyren <hello@bnb.im> (http://bnb.im)",
+	"author": "Mathuranath B <hello@mathuranath.im> (http://mathuranath.im)",
 	"license": "MIT",
 	"files": [
 		"bin/card.mjs",
@@ -39,6 +39,6 @@
 		"chalk": "^5.3.0"
 	},
 	"bugs": {
-		"url": "https://github.com/bnb/bitandbang/issues"
+		"url": "https://github.com/onewildgamer/matt-card/issues"
 	}
 }
